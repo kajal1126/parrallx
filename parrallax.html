@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--boostrap link-->
+    
+    <!--fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=sans-serif">
+    <!--fonts link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>parrallax effect</title>
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:sans-serif;
+        flex-wrap: wrap;
+      }
+      body, html{
+        height: 100%;
+      }
+      #parrallax1{
+        background-image: url(images/img1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment:fixed;
+        height: 100%;
+        width: 100%;
+        opacity: 0.5;
+        position: relative;
+      }
+      #parrallax2{
+        position:relative;
+        background-image:url(images/img2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment:fixed;
+        height: 100%;
+        width: 100%;
+      }
+      
+      #parrallax3{
+        background-image:url(images/img3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment:fixed;
+        position: relative;
+        height: 100%;
+        width: 100%;
+      }
+      p{
+        background-color:lightgrey;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
+      }
+      .center{
+        position:absolute;
+        font-size: 80px;
+        top: 40%;
+        left:30%;
+        color: white;
+        font-weight: bold;
+      }
+      .center1{
+        left: 35%;
+      }
+      @media screen and (max-width:780px) {
+      .center{
+        font-size: 70px;
+      }
+      .centerfirst{
+        font-size: 70px;
+        left: 30%;
+      }
+      .centersec{
+        left: 16%;
+      }
+      .center1{
+        left: 30%;
+      }
+      }
+      @media screen and (max-width:440px) {
+      .center{
+        font-size: 50px;
+      }
+      .centerfirst{
+        font-size: 50px;
+        left: 18%;
+      }
+      .center1{
+        left: 25%;
+      }
+      }
+  </style>
+</head>
+<body>
+
+  <section id="parrallax1">
+    <h3 class="center centerfirst">Scroll Down</h3>
+  </section>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quam omnis voluptate tempore? Temporibus sit maxime expedita repudiandae tempora odio quisquam perferendis fugiat, unde veritatis eligendi, nisi, pariatur repellat autem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi aut voluptas eos magnam iure! Accusamus reprehenderit, nihil molestias excepturi adipisci est fugit magni aspernatur animi consequuntur qui fuga et consequatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nostrum commodi assumenda numquam earum aliquid perferendis mollitia eveniet nesciunt minus rem, corrupti reprehenderit, voluptatum quaerat eaque consectetur veniam, aperiam optio!</p>
+  
+  <section id="parrallax2">
+    <h3 class="center centersec">Parrallax Effect</h3>
+  </section>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quam omnis voluptate tempore? Temporibus sit maxime expedita repudiandae tempora odio quisquam perferendis fugiat, unde veritatis eligendi, nisi, pariatur repellat autem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, optio quisquam inventore commodi distinctio ut impedit sequi! Nulla illo corrupti dolore libero obcaecati fugiat. Eos aliquid nisi ex itaque facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda at libero, eaque voluptas cupiditate explicabo est beatae quis fugit maiores eos corporis repellendus praesentium delectus! Voluptatibus exercitationem iure excepturi iste?</p>
+  
+    
+  <section id="parrallax3">
+    <h3 class="center center1">Scroll Up</h3>
+  </section>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quam omnis voluptate tempore? Temporibus sit maxime expedita repudiandae tempora odio quisquam perferendis fugiat, unde veritatis eligendi, nisi, pariatur repellat autem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, alias soluta voluptatum sapiente deserunt necessitatibus omnis ipsum fuga ratione corrupti non culpa quidem eos quaerat quam iste pariatur sed maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis ratione iusto cum sapiente libero, cupiditate corporis tempora, quaerat deserunt, debitis hic repellat repellendus dolorem. Accusamus blanditiis eius cumque maxime esse!</p>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+</body>
+</html>
